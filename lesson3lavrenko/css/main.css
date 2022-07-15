@@ -1,0 +1,51 @@
+body{display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+overflow: hidden;}
+
+.father{ width: 1000px;
+height: 500px;
+border: 1px solid red;
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;}
+
+.block{ width: 300px;
+height: 400px;
+border: 1px solid silver;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.block>p{padding-left: 35px;
+padding-right: 20px;
+padding-bottom: 20px;}
+
+.btn{ width: 150px;
+height: 50px;
+background: darkseagreen;
+display: flex;
+justify-content: center;
+align-items: center;}
+.btn:hover {background: lime;
+cursor: pointer;}
+.fa-sistrix {font-size: 25px;
+    position: absolute;
+    bottom: 435px;
+
+}
+.lll{width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 425px;
+border: 1px solid green;
+background: white;}
+.circle{ display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+background: white;}
