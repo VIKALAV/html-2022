@@ -1,0 +1,53 @@
+.wrap { border: 1px solid black;
+width: 100%;
+height: 800px;}
+
+.a {background: lightpink;
+width: 100%;
+height: 200px;}
+
+.father { border: 1px solid black;
+width: 100%;
+height: 600px;
+display: flex;
+}
+
+.main { border: 2px solid red;
+width: 100%;
+height: 600px;
+}
+
+.b { background: indigo;
+width: 100%;
+height: 300px;}
+.container { background: yellow;
+width: 100%;
+height: 300px;
+display: flex;
+}
+.box { border: 2px solid black;
+width: 33%;
+height: 300px;
+}
+.f { background: darksalmon;
+width: 25%;
+height: 600px;}
+@media screen and (max-width: 900px){.father {flex-direction: column; width: 100%; height: 1200px;}
+
+}
+@media screen and (max-width: 900px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+        height: 1200px;
+    }
+
+    @media screen and (max-width: 900px) {
+        .f {
+            flex-direction: column;
+            width: 100%;
+            height: 1200px;
+        }
+
+    }
+}

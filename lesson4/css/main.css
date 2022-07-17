@@ -1,0 +1,42 @@
+.wrap {
+    border: 2px solid black;
+    width: 100%;
+    height: 800px;
+}
+.a { background: cyan;
+width: 100%;
+height: 300px;}
+
+.father { background: silver;
+width: 100%;
+height: 500px;
+}
+
+.container_bc {background: aquamarine;
+    width: 100%;
+height: 500px;
+    display: flex;
+}
+
+.b {background: deepskyblue;
+width: 70%;
+height: 500px;}
+
+.c { background: orchid;
+width: 30%;
+height: 500px;}
+
+@media screen and (max-width: 900px) {
+    .container_bc{
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+    }
+    .b {width: 100%; height: 1000px;
+    }
+.c {width: 100%; height: 1000px;
+}
+
+}
+
+
